@@ -1,0 +1,53 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(121, 199, 223);
+}
+.jumbotron {
+    min-width: 585px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px 10px 10px;
+    border: none;
+}
+.resume {
+    position: center;
+}
+label {
+    font: size 11pt; ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: start;
+}
+.labels, .input-box {
+    width: 13rem;
+    height: 9em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 38px;
+} 
+#user-info {
+    display: flex;
+}
+#message-contact {
+    display: flex; 
+    flex: 0em;
+}
+.linked-item {
+    border-style: solid; color: rgb(57, 18, 73);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align:center;
+    margin-top: 2em;
+    margin-right: center;
+    margin-bottom: 2em;
+    margin-left: center;
+}
+.page-link {
+    color:darkolivegreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;        
+}
+a:hover {
+    color: black        
+}

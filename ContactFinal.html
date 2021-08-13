@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <link href="linked_tree2_stylesheet.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </head>
+    <body style="background-color: #a1dee0;">
+        <main>
+            <h1 style="text-align: center;">Contact Form</h1>
+            <br>   
+            <form id="user-info">                
+                <span class="labels" >
+                    <div>First Name</div>
+                    <div>Last Name</div>
+                    <div>Email Address</div>
+                    <div>Phone Number</div>
+                    <div>Age</div>
+                    <div >Secret Answer</div>   
+                </span>
+                <span class="input-box">
+                        <input type="text" name="first name"/>
+                        <input type= "text" name="last name"/>
+                        <input type="email" name="email"/>
+                        <input type= "number" name="phone number"/>
+                        <input type="number" name="age"/>
+                        <input type="password" name="Secret Answer"/>
+                </span>
+            </form>
+            <form>
+                <div id = "message_contact">
+                <label class = "user-messages" >User's Messages</label>
+                    </div>
+                    <textarea cols="40" rows="5" style="resize: none;"></textarea>
+                    <br>
+                    <br>
+                    <label>Preferred Contact</label>
+                    <br>
+                    <label>Phone</label>
+                    <input type="radio" name="contact"/>
+                    <label>Email</label>
+                    <input type="radio" name="contact"/>
+                    <label>No Contact</label>
+                    <input type="radio" name="contact"/>
+                    <br>
+                    <br>
+                    <label>Income Selection</label>
+                    <select name="Income">
+                        <option>Less than $50K</option>
+                        <option>$50K-$100K</option>
+                        <option>$100k+</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label>Is this information accurate?</label>
+                    <input type="checkbox"/>
+                    <br>
+                    <br>       
+                </form>  
+        </main>
+    </body>
+</html>
