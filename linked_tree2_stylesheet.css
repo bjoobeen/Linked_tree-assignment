@@ -17,6 +17,7 @@ label {
     font: size 11pt; ;
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: start;
+    justify-content: space-around;
 }
 .labels, .input-box {
     width: 13rem;
@@ -24,17 +25,18 @@ label {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-bottom: 38px;
+    margin-bottom: 32px;
 } 
 #user-info {
     display: flex;
+    font-size: 12pt;
 }
 #message-contact {
     display: flex; 
     flex: 0em;
 }
 .linked-item {
-    border-style: solid; color: rgb(57, 18, 73);
+    border-style: dotted; color: rgb(57, 18, 73);
     padding-top: 10px;
     padding-bottom: 10px;
     text-align:center;
