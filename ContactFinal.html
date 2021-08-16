@@ -27,58 +27,117 @@
                 <li class="breadcrumb-item active" aria-current="page">Contact</li>
               </ol>
             </nav>
-            <h1 style="text-align: center;">Contact Form</h1>
-            <br>
-            <br>
-            <br>
-            <form id="user-info">                
-                <span class="labels" >
-                    <div>First Name</div>
-                    <div>Last Name</div>
-                    <div>Email Address</div>
-                    <div>Phone Number</div>
-                    <div>Age</div>
-                    <div >Secret Answer</div>   
-                </span>
-                <span class="input-box">
-                    <input id="firstName" type="text" name="first name"/>
-                    <input id="lastName" type= "text" name="last name"/>
-                    <input id="email" type="email" name="email"/>
-                    <input id="phoneNumber" type= "number" name="phone number"/>
-                    <input id="age" type="number" name="age"/>
-                    <input id="secretAnswer" type="password" name="Secret Answer"/>
-                </span>
-            </form>
-            <form>
-                <div id = "message_contact">
-                <label class = "user-messages" >User's Messages</label>
+        <div class = "row">
+            <div class = "col-lg-6 col-md-8 col-sm-9">
+                <h1 style="text-align: center;">Contact Form (Input)</h1>
+                <br>
+                <br>
+                <br>
+                <form id="user-info" class="form-group">                
+                    <span class="labels">
+                        <div class ="form-spacing">First Name</div>
+                        <div class ="form-spacing">Last Name</div>
+                        <div class ="form-spacing">Email Address</div>
+                        <div class = "form-spacing">Phone Number</div>
+                        <div class = "form-spacing">Age</div>
+                        <div class = "form-spacing">Secret Answer</div>   
+                    </span>
+                    <span class="input-box">
+                        <input id="firstName" type="text" name="first name"/>
+                        <input id="lastName" type= "text" name="last name"/>
+                        <input id="email" type="email" name="email"/>
+                        <input id="phoneNumber" type= "number" name="phone number"/>
+                        <input id="age" type="number" name="age"/>
+                        <input id="secretAnswer" type="password" name="Secret Answer"/>
+                    </span>
+                </form>
+                <form>
+                    <div id = "message_contact">
+                        <label class = "user-messages" >User's Messages</label>
                     </div>
-                    <textarea cols="40" rows="5" style="resize: none;"></textarea>
+                        <textarea id="userMessages" cols="40" rows="5" style="resize: none;"></textarea>
                     <br>
                     <br>
-                    <label>Preferred Contact</label>
+                        <label>Preferred Contact</label>
                     <br>
-                    <label>Phone</label>
-                    <input type="radio" name="contact"/>
-                    <label>Email</label>
-                    <input type="radio" name="contact"/>
-                    <label>No Contact</label>
-                    <input type="radio" name="contact"/>
-                    <br>
-                    <br>
-                    <label>Income Selection</label>
-                    <select name="Income">
-                        <option>Less than $50K</option>
-                        <option>$50K-$100K</option>
-                        <option>$100k+</option>
-                    </select>
+                        <label>Phone</label>
+                            <input type="radio" name="contact"/>
+                        <label>Email</label>
+                            <input type="radio" name="contact"/>
+                        <label>No Contact</label>
+                            <input type="radio" name="contact"/>
                     <br>
                     <br>
-                    <label>Is this information accurate?</label>
-                    <input type="checkbox"/>
+                        <label>Income Selection</label>
+                        <select name="Income">
+                            <option>Less than $50K</option>
+                            <option>$50K-$100K</option>
+                            <option>$100k+</option>
+                        </select>
+                    <br>
+                    <br>
+                        <label>Is this information accurate?</label>
+                        <input type="checkbox"/>
                     <br>
                     <br>       
-                </form>  
+                </form>
+            </div>
+            <div class="col-lg-6 col-md-4 col-sm-3">
+                <h1 style="text-align: center;">Output</h1>
+                <br>
+                <br>
+                <br>
+                <form id="user-info" class="form-group">                
+                    <span class="labels">
+                        <div class ="output-form-spacing">First Name</div>
+                        <div class ="output-form-spacing">Last Name</div>
+                        <div class ="form-spacing">Email Address</div>
+                        <div class = "form-spacing">Phone Number</div>
+                        <div class = "form-spacing">Age</div>
+                        <div class = "form-spacing">Secret Answer</div>   
+                    </span>
+                    <span class="input-box">
+                        <input id="firstName" type="text" name="first name"/>
+                        <input id="lastName" type= "text" name="last name"/>
+                        <input id="email" type="email" name="email"/>
+                        <input id="phoneNumber" type= "number" name="phone number"/>
+                        <input id="age" type="number" name="age"/>
+                        <input id="secretAnswer" type="password" name="Secret Answer"/>
+                    </span>
+                </form>
+                <form>
+                    <div id = "message_contact">
+                        <label class = "user-messages" >User's Messages</label>
+                    </div>
+                        <textarea id="userMessages" cols="40" rows="5" style="resize: none;"></textarea>
+                    <br>
+                    <br>
+                        <label>Preferred Contact</label>
+                    <br>
+                        <label>Phone</label>
+                            <input type="radio" name="contact"/>
+                        <label>Email</label>
+                            <input type="radio" name="contact"/>
+                        <label>No Contact</label>
+                            <input type="radio" name="contact"/>
+                    <br>
+                    <br>
+                        <label>Income Selection</label>
+                        <select name="Income">
+                            <option>Less than $50K</option>
+                            <option>$50K-$100K</option>
+                            <option>$100k+</option>
+                        </select>
+                    <br>
+                    <br>
+                        <label>Is this information accurate?</label>
+                        <input type="checkbox"/>
+                    <br>
+                    <br>       
+                </form>
+            </div>
+            </div>
+        </div>          
         </main>
     </body>
 </html>
