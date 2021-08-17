@@ -59,3 +59,11 @@ a:hover {
 .output-form-spacing {
     padding: 3px;
 }
+.heading-one {
+    font-family: cursive;
+    font-weight: 450;
+    font-size: 24pt;
+    display: flex;
+    justify-content: center;
+
+}
