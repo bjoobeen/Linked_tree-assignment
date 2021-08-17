@@ -55,3 +55,7 @@ a:hover {
 }
 .form-spacing {
     padding-bottom: 8px;
+}
+.output-form-spacing {
+    padding: 3px;
+}
